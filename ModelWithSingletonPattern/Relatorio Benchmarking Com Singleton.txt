@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /projects/blog/ModelWithSingletonPattern/ComSingleton/teste.php
+Document Length:        29 bytes
+
+Concurrency Level:      1
+Time taken for tests:   17.992 seconds
+Complete requests:      100
+Failed requests:        56
+   (Connect: 0, Receive: 0, Length: 56, Exceptions: 0)
+Write errors:           0
+Total transferred:      24104 bytes
+HTML transferred:       2904 bytes
+Requests per second:    5.56 [#/sec] (mean)
+Time per request:       179.918 [ms] (mean)
+Time per request:       179.918 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.31 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:   134  180  46.0    168     401
+Waiting:      134  180  46.0    167     401
+Total:        134  180  46.0    168     401
+
+Percentage of the requests served within a certain time (ms)
+  50%    168
+  66%    169
+  75%    179
+  80%    180
+  90%    238
+  95%    290
+  98%    368
+  99%    401
+ 100%    401 (longest request)
